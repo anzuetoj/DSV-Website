@@ -1,0 +1,156 @@
+/* CSS for dual state vending Document */
+
+* {margin:0; padding:0; outline:none;}
+body { font-family: Arial, Helvetica, "Helvetica Neue", sans-serif; background: #3b9bd5;}
+.background-image {background: url(../images/DSV-about-background.jpg) top right no-repeat;width:980px;margin:0 auto;padding: 0px;}/* background for about page */
+.background-image-noteworthy {background: url(../images/DSV-Noteworthy-background.jpg) top right no-repeat;width:980px;margin:0 auto;padding: 0px;}
+.background-image-programs {background: url(../images/DSV-Programs-background.jpg) top right no-repeat;width:980px;margin:0 auto;padding: 0px;}
+.background-image-contact {background: url(../images/DSV-Contact-background.jpg) top right no-repeat;width:980px;margin:0 auto;padding: 0px;}
+.background-image-products {background: url(../images/product-background.jpg)  top right no-repeat;width:978px;margin:0 auto;padding: 0px;}
+
+h1#logo {margin:0px;padding: 0px;position:relative}
+h1#logo a {position:absolute;display:block;width:205px;height:159px;z-index: 100;background: url(../images/DSV-logo.png) no-repeat left top; }
+h1#logo a span {display:block;position:absolute;width:100%;height:100%;left:-9999px;}
+
+h2,h3,h5,h6 {font-family: 'Panefresco1wtRegular', Arial, Helvetica, "Helvetica Neue", sans-serif;}
+
+h2 {font-size: 30px; color: #0094cc; line-height: 36px;}
+h3 {color:#fff; font-size: 25px; padding-right: 0px;}
+h4 {color:#3b9bd5; font-size:15px;margin-top: 25px; padding-bottom:5px; font-weight: bold; font-family:  Arial, Helvetica, "Helvetica Neue", sans-serif;}}
+h5 {color:#005c91; font-size:12px; margin-top: 20px}
+h6 {color: rgb(203,84,39);font-size:11px; margin-top: 20px}
+p {font-size: 12px; line-height: 17px;color:#5a5e63;}
+a:link {color:rgb(203,84,39);text-decoration:none;}      /* unvisited link */
+a:visited {color:rgb(203,84,39); text-decoration:none;}  /* visited link */
+a:hover {color:#0094cc; text-decoration:none;} 			 /* mouse over link */
+blockquote {background: #F2F2F2; font-size:12px; font-style: italic; margin:5px 30px 0px 30px; padding: 20px;}
+cite {color:#0094cc; margin-left: 50px;font-size: 12px;}
+ul {padding-left:20px;}
+li {font-size: 12px;line-height: 30px;}
+ol {padding-left:20px;}
+label {color:#0094cc;}
+.choice {color: rgb(203,84,39);}
+select {background:#0094cc; color:#fff; }
+
+/* this is the top part on the homepage */
+#wrapper-top {margin:0 auto; padding:0; width:100%; background: url(../images/DSV-Home-background.jpg) center top no-repeat; background-color: #fff;}
+#container-top{width:980px; margin:0 auto;position: relative;}
+#header {position:relative; width:980px;height:170px}
+#home #header {height:auto !important}
+.hero {width:980px; margin:0 auto;position: relative;height:400px;}
+
+#navigation{float:right;margin-top:20px;font-size: 13px; line-height: 14px; font-weight: bold;}
+#navigation li {float:left; display:block; margin-left:40px;}
+#navigation li span{border-bottom: 2px #0094cc solid;}
+#navigation li span:hover{border-bottom: solid #505966 2px;}
+#navigation li a {color:#0094cc;text-decoration: none;}
+#navigation li a:hover {color:#505966;text-decoration: none; border-bottom: solid #505966 2px;}
+#message-home {display:block;width:465px; padding-bottom: 60px; padding-top: 155px;}
+#vending-machine {position: absolute; bottom: 0px;right:20px;}
+#vending-machine img {margin-right: 70px;}
+
+/*this is the baby blue button */
+#button {margin-top: 40px;}
+a.button {background: url("../images/DSV-button-right_04.jpg") no-repeat scroll right top transparent; color: #fff; display: block;float: left; font-family: Arial,Helvetica,sans-serif;font-size: 12px; margin-right: 6px; padding-right: 20px; text-decoration: none;}
+a.button span {background: url("../images/DSV-button.png") no-repeat scroll 0 0 transparent; display: block;line-height: 25px;padding: 1px 0 0px 10px;}
+a.button:hover {background: url("../images/button-right_blue-hover2.png") no-repeat scroll right top transparent; color: #fff; display: block;float: left; font-family: Arial,Helvetica,sans-serif;font-size: 12px; margin-right: 6px; padding-right: 20px; text-decoration: none;}
+a:hover.button span{background: url("../images/button_blue-hover.png") no-repeat scroll 0 0 transparent; display: block;line-height: 25px;padding: 1px 0 0px 10px;}
+
+/* these are the blue buttons */
+.button-blue{background: url("../images/DSV-button-right_blue.png") no-repeat scroll right top transparent; color: #fff;float: left; font-family: Arial,Helvetica,sans-serif;font-size: 12px;height: 25px;margin-right: 6px; padding-right: 20px; text-decoration: none; margin-top: 23px;border: none;}
+.button-blue span {background: url("../images/DSV-button_blue.png") no-repeat scroll 0 0 transparent;display: block;line-height: 27px;padding: 0px 0 0px 10px;color:#fff; }
+
+a.button-blue:hover {background: url("../images/button-right_blue-hover2.png") no-repeat scroll right top transparent; color: #fff; display: block;float: left;height:34px; margin-right: 6px; padding-right: 20px; text-decoration: none;}
+a:hover.button-blue span{ background: url("../images/button_blue-hover.png") no-repeat scroll 0 0 transparent; display: block;line-height:27px;padding: 0px 0 0px 10px;}
+
+/* this is the bottom part on the homepage */
+#wrapper-bottom-home {width:100%; background: url(../images/DSV-footer-blue-background_03.jpg) repeat-x;}
+#container-bottom{clear:both; height: 320px; margin:0 auto; padding-bottom: 10px; width:980px;}
+#container-bottom p {margin-top:15px;line-height: 21px; font-size:14px;color:#fff;}
+#our-service-home{width: 288px; min-height: 233px;float:left;margin-top: 40px;}
+#testimonials-home {width:250px; min-height: 168px; float:left; margin-left: 40px;margin-top: 40px;background: url("../images/testimonials-home-background_03.png");padding-left: 10px;}
+#testimonials-home p {font-family: "lucida grande" 15px; font-style: italic;}
+.consultation-home {width:290px;float:right;margin-top:15px;background:#61b4e6; padding:28px 20px 20px 20px;}
+#container-bottom .consultation-home p {font-size:12px; line-height: 17px; color:#EAF4FC; padding-right: 28px;margin-top: 5px;}
+.consultation-home button {margin-top:5px;}
+.consultation-home ul {padding: 0px; margin-top: 5px;}
+.consultation-home li {list-style-type: none; line-height: 20px;}
+.consultation-home label {color:#fff;}
+
+/*this is the form on the homepage */
+fieldset{border:0px;}
+input {color:#1d7abf; background: #DEEFFA; border:none; width:270px;}
+.input-text-box {width:269px; height:15px;margin-bottom: 10px;padding:7px 0px 7px 7px; background: url("../images/DSV-input-box_06.png") no-repeat; }
+
+/*submit button */
+button::-moz-focus-inner{padding:0;border:none; } /* fixing evil default firefox padding */
+button {background: url(../images/submit-button.png); width:82px; height: 25px;text-decoration: none;border: none; cursor: pointer;}
+button span {visibility: hidden;}
+button:hover {background: url(../images/submit-button-hover.png); width:82px; height: 25px;text-decoration: none;border: none; cursor: pointer;}
+button::-moz-focus-inner{padding:0;border:none; } /* fixing evil default firefox padding */
+
+/*this is the footer-home page */
+#footer-home{border-top:1px solid #66ADDC; padding:0; width: 980px;min-height: 149px; margin-top: 20px;}
+#site-map {float:right; color:#fff; font-size:11px; margin-top:20px;}
+#site-map li {float:left; display:block; padding:0px 10px 0px 10px; line-height: 10px; border-right: #fff 1px solid;color: #d0e9f8; font-size: 11px;}
+#site-map .last_link{ border: none;}
+#footer-home #copyrights {margin-top: 10px;}
+#site-map a{color:#fff;text-decoration: none;}
+#site-map a:hover {color:#000;}
+#copyrights {width:370px;margin-top:10px;float:left;}
+#copyrights p {color:#d0e9f8;font-size: 11px;line-height: 14px; margin-top: 10px;}
+#copyrights a{color:#fff;}
+#copyrights a:hover{color:#000;}
+
+.clear {clear:both;}
+
+/*===================== Interior page =============*/
+
+#wrapper {margin:0 auto; padding:0; width:100%;background:#fff }
+#content{width: 980px;clear:both; margin-top: 15px; color:#5a5e63;clear: both;}
+#content h2 {padding-bottom: 10px;}
+
+.left-column {width:572px; border-top: 2px solid #3b9bd5; padding:19px 40px 0px 0px; float:left;}
+.left-column #headline p {font-size:14px; line-height: 21px;color:#777; padding-bottom: 10px;}
+.left-column #info {width:522px;font-size: 12px; line-height: 18px;}
+.left-column ul {padding-left:20px;}
+.left-column ul li {line-height: 30px;list-style-type:disc;}
+.subheadline {width: 460px; font-size: 12px; line-height:  18px; padding-left: 20px;}
+.bullets-for-subheadlines {list-style: circle url(../images/blue-arrow-list.jpg); color: #3b9bd5; line-height: 0px;padding-bottom: 5px; list-style-position: outside;}
+
+@media screen and (-webkit-min-device-pixel-ratio:0){
+.bullets-for-subheadlines {list-style-position: outside;}
+}
+
+.right-column {width:318px;float:right;}
+.photo-sidebar img {border:2px solid #858585;margin-bottom: 15px; }
+.consultation {background:#61b4e6; padding:28px 0px 20px 20px;margin-bottom: 10px; min-height: 240px;}
+.consultation p {font-size:12px; line-height: 17px; color:#EAF4FC;padding-right: 28px;margin-top: 5px;}
+.consultation button {margin-top:5px;}
+.consultation ul {padding: 0px; margin-top: 5px;}
+.consultation li{list-style-type: none; line-height: 20px;}
+.consultation label {color:#fff;}
+
+#wrapper-bottom {width:100%;background: url(../images/DSV-footer-blue-background_03.jpg) repeat-x; color:#fff; margin-top: 50px;}
+#wrapper-bottom .footer{width:980px;height:148px;margin: 0 auto; color:#CEEAFF;}
+#wrapper-bottom li {color: #d0e9f8; font-size: 11px;line-height: 10px;}
+
+/* contact form */
+.contact-input-box {width:343px;background: url(../images/DSV-contact-input.jpg);padding: 7px;}
+textarea {background:#DEEFFA; border:none; color: #1D7ABF; padding: 13px;width: 330px; font-family: Arial, Helvetica, "Helvetica Neue", sans-serif; font-size: 12px;}
+#contact-forms {width:350px;}
+#contact-forms ul {padding-left:0px;}
+#contact-forms li {list-style-type:none;margin-top: 10px;}
+#contact-forms li label {color:#3b9bd5; font-size: 13px;}
+
+
+.directions {min-height:175px; padding:25px;background: #65B2E5;}
+.directions p {font-size: 13px;line-height: 21px ;margin-top: 10px;color:#ffffff;}
+
+/*============table on products=========================*/
+table {font-size: 12px;margin-bottom: 30px;}
+th {color:#0094cc; font-size: 13px;padding-bottom: 10px;text-align: left;}
+td{width: 136px; padding:3px 0 3px 4px;line-height: 17px;}
+td span {font-weight: bold;}
+.bluetr {background: #e7f4fb;}
+.product-bottom {width: 100%;}
